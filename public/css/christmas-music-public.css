@@ -1,0 +1,181 @@
+#xmas-music-player * {
+  box-sizing: border-box;
+}
+#xmas-music-player {
+  position: fixed;
+  z-index: 2147483646;
+  width: 36px;
+  height: 36px;
+}
+
+#xmas-music-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: 0;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 5px #fff;
+  cursor: pointer;
+  background: #ff0000;
+}
+#xmas-music-button:hover {
+  opacity: 0.7;
+}
+#xmas-music-button span {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  height: 16px;
+  border-width: 8px 0 8px 14px;
+  border-style: solid;
+  border-color: transparent;
+  border-left-color: #fff;
+  margin-left: 2px;
+  transition: border-style 0.2s ease-in-out,
+              border-width 0.2s ease-in-out;
+}
+#xmas-music-button.plays span {
+  border-style: double;
+  border-width: 0px 0 0px 14px;
+  margin-left: 0;
+}
+
+#xmas-music-player.xmas-hide {
+  display: none !important;
+}
+
+
+#xmas-music-player.xmas-top-left {
+  top: 30px;
+  left: 30px;
+}
+#xmas-music-player.xmas-top-left .xmas-music-tooltip-wrapper {
+  top: calc(100% + 10px);
+  left: calc(100% - 25px);
+}
+#xmas-music-player.xmas-top-left .xmas-music-tooltip {
+  background-image: url(../images/tooltip-top-left.png);
+}
+#xmas-music-player.xmas-top-left .xmas-music-tooltip-close {
+  bottom: 0;
+  right: 0;
+}
+
+#xmas-music-player.xmas-top-right {
+  top: 30px;
+  right: 30px;
+}
+#xmas-music-player.xmas-top-right .xmas-music-tooltip-wrapper {
+  top: calc(100% + 10px);
+  right: calc(100% - 25px);
+}
+#xmas-music-player.xmas-top-right .xmas-music-tooltip {
+  background-image: url(../images/tooltip-top-right.png);
+}
+#xmas-music-player.xmas-top-right .xmas-music-tooltip-close {
+  bottom: 0;
+  left: 0;
+}
+
+#xmas-music-player.xmas-bottom-left {
+  bottom: 30px;
+  left: 30px;
+}
+#xmas-music-player.xmas-bottom-left .xmas-music-tooltip-wrapper {
+  bottom: calc(100% + 10px);
+  left: calc(100% - 25px);
+}
+#xmas-music-player.xmas-bottom-left .xmas-music-tooltip {
+  background-image: url(../images/tooltip-bottom-left.png);
+}
+#xmas-music-player.xmas-bottom-left .xmas-music-tooltip-close {
+  top: 0;
+  right: 0;
+}
+
+#xmas-music-player.xmas-bottom-right {
+  bottom: 30px;
+  right: 30px;
+}
+#xmas-music-player.xmas-bottom-right .xmas-music-tooltip-wrapper {
+  bottom: calc(100% + 10px);
+  right: calc(100% - 25px);
+}
+#xmas-music-player.xmas-bottom-right .xmas-music-tooltip {
+  background-image: url(../images/tooltip-bottom-right.png);
+}
+#xmas-music-player.xmas-bottom-right .xmas-music-tooltip-close {
+  top: 0;
+  right: 0;
+}
+
+
+#xmas-music-button.xmas-circle {
+  border-radius: 50%;
+}
+#xmas-music-button.xmas-square {
+  border-radius: 0;
+}
+
+
+#xmas-music-button.xmas-animation {
+  box-shadow: 0 0 0 0 rgba(255, 0, 0, 1);
+	transform: scale(1);
+	animation: xmas-pulse 2s infinite;
+}
+
+
+.xmas-music-tooltip-wrapper.tooltip-visible {
+  display: block;
+}
+.xmas-music-tooltip-wrapper {
+  display: none;
+  position: absolute;
+}
+.xmas-music-tooltip {
+  width: 178px;
+  height: 73px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.xmas-music-tooltip-close {
+  display: block;
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  border: 0;
+  padding: 0;
+  border-radius: 50%;
+  background: #FD517A;
+  cursor: pointer;
+  outline: none;
+}
+.xmas-music-tooltip-close::before,
+.xmas-music-tooltip-close::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 9px;
+  width: 1px;
+  background-color: #fff;
+}
+.xmas-music-tooltip-close::before {
+  transform: rotate(45deg);
+}
+.xmas-music-tooltip-close::after {
+  transform: rotate(-45deg);
+}

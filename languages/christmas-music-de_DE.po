@@ -1,0 +1,331 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: Christmas Music 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 17:07+0300\n"
+"PO-Revision-Date: 2021-10-21 09:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Revision-Date: Thu Dec 10 2015 12:18:51 GMT+0700 (ICT)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1"
+
+#: admin/christmas-music-admin.php:84
+msgid "* affecting only if globally "
+msgstr "* wirkt sich nur aus, wenn global "
+
+#: admin/partials/christmas-music-admin-display.php:195
+msgid ""
+"1. If something doesn’t work or you’re stuck with the settings, don’t "
+"hesitate to submit your ticket"
+msgstr ""
+"1. Wenn etwas nicht funktioniert oder Sie mit den Einstellungen nicht "
+"weiterkommen, zögern Sie nicht, Ihr Ticket einzureichen"
+
+#: admin/partials/christmas-music-admin-display.php:196
+msgid ""
+"2. Please be informed, that we’re not responsible for the copyright "
+"infringement due to the use of your music files."
+msgstr ""
+"2. Bitte beachten Sie, dass wir nicht für die Verletzung von Urheberrechten "
+"durch die Verwendung Ihrer Musikdateien verantwortlich sind."
+
+#: admin/partials/license-settings.php:38
+#: admin/partials/license-settings.php:47
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: admin/partials/license-settings.php:42
+msgid "active"
+msgstr "aktiv"
+
+#: admin/partials/christmas-music-admin-display.php:65
+msgid "Add \"Enable Xmas Mood\" tooltip"
+msgstr "Tooltip \" Weihnachtsstimmung aktivieren\" hinzufügen"
+
+#: admin/partials/christmas-music-admin-display.php:171
+msgid "Add soft animation (pulse) to the button"
+msgstr "Hinzufügen einer weichen Animation (Puls) zur Button"
+
+#: admin/christmas-music-admin.php:206 admin/christmas-music-admin.php:246
+#: admin/christmas-music-admin.php:294
+msgid "An error occurred, please try again."
+msgstr "Es ist ein Fehler aufgetreten, bitte versuchen Sie es noch einmal."
+
+#: admin/partials/christmas-music-admin-display.php:105
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: admin/partials/christmas-music-admin-display.php:178
+msgid "Background color of the play/pause button"
+msgstr "Hintergrundfarbe für der Play/Pause-Button"
+
+#. Author of the plugin
+msgid "BDA"
+msgstr "BDA"
+
+#: admin/partials/christmas-music-admin-display.php:152
+msgid "Choose button style"
+msgstr "Buttonstil auswählen"
+
+#: admin/partials/christmas-music-admin-display.php:75
+msgid "Choose File"
+msgstr "Datei auswählen"
+
+#: admin/partials/christmas-music-admin-display.php:126
+msgid "Choose position of the button on your website"
+msgstr "Wählen Sie die Position der Button auf Ihrer Website"
+
+#. Name of the plugin
+#: admin/christmas-music-admin.php:43
+msgid "Christmas Music"
+msgstr "Weihnachtsmusik"
+
+#: admin/christmas-music-admin.php:43
+#: admin/partials/christmas-music-admin-display.php:47
+#| msgid "Christmas Music Settings"
+msgid "Christmas Music Settings"
+msgstr "Einstellungen für Weihnachtsmusik"
+
+#: admin/christmas-music-admin.php:72
+msgid "Christmas Music Settings"
+msgstr "Einstellungen für Weihnachtsmusik"
+
+#: admin/partials/christmas-music-admin-display.php:157
+msgid "Circle"
+msgstr "Runder"
+
+#: admin/partials/license-settings.php:44
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: admin/christmas-music-admin.php:84
+msgid "disabled here"
+msgstr "deaktiviert hier"
+
+#: admin/partials/license-settings.php:31
+msgid "Enter your license key"
+msgstr "Lizenzschlüssel eingeben"
+
+#: admin/partials/christmas-music-admin-display.php:194
+msgid "Faq"
+msgstr "Anfrage"
+
+#: admin/partials/christmas-music-admin-display.php:80
+msgid "Format \"WAV\" is currently not supported in IE and Edge browsers"
+msgstr ""
+"Das Format \"WAV\" wird derzeit von den Browsern IE und Edge nicht "
+"unterstützt"
+
+#: admin/partials/christmas-music-admin-display.php:58
+msgid "General Options"
+msgstr "Allgemeine Optionen"
+
+#: admin/partials/christmas-music-admin-display.php:195
+msgid "here"
+msgstr "hier"
+
+#: admin/partials/christmas-music-admin-display.php:120
+msgid "Hide play/pause button"
+msgstr "Play/Pause-Button ausblenden"
+
+#: admin/partials/christmas-music-admin-display.php:199
+msgid ""
+"However, we do our best to keep this plugin compatible with the browsers as "
+"much as possible."
+msgstr ""
+"Wir tun jedoch unser Bestes, um dieses Plugin so weit wie möglich mit den "
+"Browsern kompatibel zu halten."
+
+#. Author URI of the plugin
+msgid "https://belovdigital.agency"
+msgstr "https://belovdigital.agency"
+
+#. URI of the plugin
+msgid "https://xmasmusicwp.com/"
+msgstr "https://xmasmusicwp.com/"
+
+#: admin/partials/christmas-music-admin-display.php:182
+msgid "Icon color of the play/pause button"
+msgstr "Farbe des Ikon für der Play/Pause-Button"
+
+#: admin/partials/christmas-music-admin-display.php:122
+msgid ""
+"If checked, the play/pause button will not be visible (in this case make "
+"sure that \"Autoplay\" option is enabled)"
+msgstr ""
+"Wenn diese Option aktiviert ist, ist  nicht sichtbar (stellen Sie in diesem "
+"Fall sicher, dass die Option \"Autoplay\" aktiviert ist)"
+
+#: admin/partials/christmas-music-admin-display.php:107
+msgid ""
+"If unchecked, audio will not play until visitor clicks the \"play\" button"
+msgstr ""
+"Wenn diese Option nicht aktiviert ist, wird die Musik nicht abgespielt, bis "
+"der Besucher auf die Schaltfläche \"Play\" klickt"
+
+#: admin/partials/christmas-music-admin-display.php:89
+#| msgid ""
+#| "If unchecked, you can add Christmas Music presence for any page or post "
+#| "or custom post type individually (go to the indiviudal page/post/cpt, "
+#| "you’ll find the settings at the top of the right sidebar)"
+msgid ""
+"If unchecked, you can add Christmas Music presence to any page or post or "
+"custom post type individually (go to the indiviudal page/post/cpt, you’ll "
+"find the settings at the top of the right sidebar)"
+msgstr ""
+"Wenn diese Option nicht aktiviert ist, können Sie die Präsenz von "
+"Weihnachtsmusik für jede Seite, jeden Beitrag oder jeden Custom Post Type "
+"einzeln hinzufügen (gehen Sie zu der einzelnen) Seite/Beitrag/CPT, Sie "
+"finden die Einstellungen oben in der rechten Seitenleiste)"
+
+#: admin/christmas-music-admin.php:229
+msgid "Invalid license."
+msgstr "Ungültige Lizenz."
+
+#: admin/christmas-music-admin.php:136 admin/christmas-music-admin.php:137
+msgid "License"
+msgstr "Lizenz"
+
+#: admin/partials/christmas-music-admin-display.php:197
+msgid "Notes"
+msgstr "Anmerkungen"
+
+#: admin/christmas-music-admin.php:83
+msgid "Play Christmas music on this page"
+msgstr "Weihnachtsmusik auf dieser Seite abspielen"
+
+#: admin/partials/christmas-music-admin-display.php:87
+#| msgid "Play on all pages"
+msgid "Play on all pages (entire website)"
+msgstr "Musik auf allen Seiten abspielen"
+
+#: admin/partials/christmas-music-admin-display.php:71
+msgid "Replace music with your own MP3 or WAV"
+msgstr "Ersetzen Sie die Musik durch Ihre persönliche MP3- oder ein WAV-Format"
+
+#: admin/christmas-music-admin.php:58
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/partials/christmas-music-admin-display.php:198
+msgid ""
+"Some browsers do not allow autoplay, it also differs for the different "
+"versions of the browsers. The strictest browser for our plugin is Mozilla "
+"Firefox, it doesn’t allow autoplay at all.<br>These browser terms change "
+"pretty often and randomly so we can’t always notice that instantly. Please "
+"bear with us."
+msgstr ""
+"Einige Browser lassen Autoplay nicht zu, und es gibt auch Unterschiede "
+"zwischen den verschiedenen Versionen der Browser. Der strengste Browser für "
+"unser Plugin ist Mozilla Firefox, er lässt Autoplay überhaupt nicht zu.<br>"
+"Diese Browserbedingungen ändern sich ziemlich oft und zufällig, so dass wir "
+"das nicht immer sofort bemerken können. Bitte haben Sie Geduld mit uns."
+
+#: admin/partials/christmas-music-admin-display.php:67
+msgid ""
+"Some browsers don't allow autoplay on the first visit (before any user "
+"interaction happens), we added this feature to bring our play button to "
+"visitor's attention when that limitation happens."
+msgstr ""
+"Einige Browser lassen die automatische Play-Funktion beim ersten Besuch "
+"nicht zu (bevor eine Benutzerinteraktion stattfindet). Wir haben diese "
+"Funktion hinzugefügt, um den Besucher auf unsere Play-Schaltfläche "
+"aufmerksam zu machen, wenn diese Einschränkung auftritt."
+
+#: admin/partials/christmas-music-admin-display.php:162
+msgid "Square"
+msgstr "Quadratischer"
+
+#: admin/partials/christmas-music-admin-display.php:113
+#| msgid "Style Options"
+msgid "Styling Options"
+msgstr "Stil Optionen"
+
+#: christmas-music.php:74
+msgid ""
+"Thank you for installing our Christmas Music plugin. Please <a "
+"href=\"admin.php?page=xmas-license-settings\">activate the license</a> to "
+"start using the plugin."
+msgstr ""
+"Vielen Dank, dass Sie unser Weihnachtsmusik Plugin installiert haben. "
+"Bitte <a href=\"admin.php?page=xmas-license-settings\">aktivieren Sie die "
+"Lizenz</a>, um das Plugin zu verwenden."
+
+#: admin/partials/christmas-music-admin-display.php:200
+msgid "Thank you for purchasing Christmas Music plugin!"
+msgstr ""
+"Vielen Dank, dass Sie sich für das Plugin Weihnachtsmusik entschieden "
+"haben!"
+
+#: christmas-music.php:61
+msgid ""
+"The plugin “Christmas Music” was automatically deactivated because you "
+"installed the PRO version."
+msgstr ""
+"Das Plugin \"Weihnachtsmusik\" wurde automatisch deaktiviert, da Sie die PRO-"
+"Version installiert haben."
+
+#: admin/christmas-music-admin.php:238
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Dies scheint ein ungültiger Lizenzschlüssel für %s zu sein."
+
+#. Description of the plugin
+msgid ""
+"This plugin adds Christmas music to your site. Also has play/pause buttons "
+"at the bottom right corner of your site."
+msgstr ""
+"Dieses Plugin fügt Weihnachtsmusik zu Ihrer Website hinzu. Außerdem hat es "
+"Play/Pause-Schaltflächen in der unteren rechten Ecke Ihrer Website."
+
+#: admin/partials/christmas-music-admin-display.php:195
+msgid "to get priority support. We reply the same day."
+msgstr ""
+"um vorrangige Unterstützung zu erhalten. Wir antworten noch am selben Tag."
+
+#: admin/partials/christmas-music-admin-display.php:93
+msgid "Volume level"
+msgstr "Lautstärkewert"
+
+#: admin/partials/license-settings.php:15
+#| msgid ""
+#| "Your license has been activated! You can now <a href=\"admin.php?"
+#| "page=xmas-music-settings\">configure pligin</a>."
+msgid ""
+"Your license has been activated! You can now <a href=\"admin.php?page=xmas-"
+"music-settings\">configure plugin</a>."
+msgstr ""
+"Ihre Lizenz wurde aktiviert! Sie können nun <a href=\"admin.php?page=xmas-"
+"music-settings\">das Plugin konfigurieren</a>."
+
+#: admin/christmas-music-admin.php:234
+msgid "Your license is not active for this URL."
+msgstr "Ihre Lizenz ist für diese URL nicht aktiv."
+
+#: admin/christmas-music-admin.php:218
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Ihr Lizenzschlüssel ist am %s abgelaufen."
+
+#: admin/christmas-music-admin.php:225
+msgid "Your license key has been disabled."
+msgstr "Ihr Lizenzschlüssel wurde deaktiviert."
+
+#: admin/christmas-music-admin.php:242
+msgid "Your license key has reached its activation limit."
+msgstr "Ihr Lizenzschlüssel hat sein Aktivierungslimit erreicht."

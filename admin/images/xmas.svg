@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="xmas.svg"
+   id="svg842"
+   version="1.1"
+   viewBox="0 0 15.425957 16.000002"
+   height="16.000002"
+   width="15.425957">
+  <metadata
+     id="metadata848">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>christmas-hat</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs846" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg842"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:cy="7.1564821"
+     inkscape:cx="15.613581"
+     inkscape:zoom="10.95051"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     id="namedview844"
+     inkscape:window-height="970"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <title
+     id="title833">christmas-hat</title>
+  <g
+     style="fill:#ffffff;fill-opacity:0.914286"
+     transform="matrix(0.01764119,0,0,0.01764119,0,-0.00413896)"
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="Page-1">
+    <g
+       style="fill:#ffffff;fill-opacity:0.914286"
+       fill-rule="nonzero"
+       fill="#ffffff"
+       transform="translate(-336,-194)"
+       id="Artboard">
+      <g
+         style="fill:#ffffff;fill-opacity:0.914286"
+         transform="translate(336,193.5)"
+         id="christmas-hat">
+        <path
+           style="fill:#ffffff;fill-opacity:0.914286"
+           id="Path"
+           d="m 71.741875,489.52523 c 0,-229.49986 186.045785,-415.545653 415.545655,-415.545653 50.91014,0 89.09275,0 114.54782,0 -7.35715,22.343932 -11.03572,47.127173 -11.03572,74.349723 0,27.22143 9.74284,51.72856 29.22854,73.52141 h -48.72018 c -20.3983,0 -36.93563,16.53733 -36.93563,36.93563 v 1.27457 c 0,20.3983 16.53733,36.93563 36.93563,36.93563 123.48492,0 223.59077,100.10584 223.59077,223.59077 V 623.0358 H 71.741875 Z" />
+        <path
+           style="fill:#ffffff;fill-opacity:0.914286"
+           id="path836"
+           d="m 783.32771,877.14213 c -160.16093,20.37395 -280.27957,30.56093 -360.35592,30.56093 -75.48136,0 -188.69929,-10.18698 -339.653785,-30.56093 C 37.49251,877.14213 0,839.64962 0,793.82413 v -69.4754 c 0,-45.8238 37.49251,-83.31801 83.318005,-83.31801 H 783.32771 c 45.8238,0 83.318,37.49251 83.318,83.31801 v 69.4737 c 0,45.82719 -37.4942,83.3197 -83.318,83.3197 z" />
+        <circle
+           style="fill:#ffffff;fill-opacity:0.914286"
+           r="134.06915"
+           cy="134.80377"
+           cx="740.35919"
+           id="Oval" />
+      </g>
+    </g>
+  </g>
+</svg>

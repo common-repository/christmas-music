@@ -1,0 +1,393 @@
+.christmas-music-settings * {
+  box-sizing: border-box;
+}
+
+.hide-notices .notice {
+  display: none !important;
+}
+
+@media all and (min-width: 991px) {
+  .christmas-music-settings {
+    display: flex;
+    padding-top: 20px;
+    margin-left: 45px;
+  }
+  .christmas-music-settings-main {
+    width: 100%;
+    max-width: 830px;
+  }
+  .christmas-music-settings-sidebar {
+    max-width: 284px;
+    margin-top: 90px;
+    margin-left: 30px;
+    padding-left: 20px;
+    border-left: 1px solid #E0E0E0;
+  }
+}
+.christmas-music-settings h1 {
+  color: #000;
+}
+.christmas-music-settings h2 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #000;
+}
+.christmas-music-settings hr + h2 {
+  margin-top: 60px;
+}
+
+
+.christmas-music-settings-top {
+  display: flex;
+  justify-content: space-between;
+}
+.christmas-music-settings-logo-wrapper {
+  text-align: center;
+}
+.christmas-music-settings-edition {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  color: #FD517A;
+}
+
+
+.christmas-music-settings-group .christmas-music-setting:last-child {
+  border-bottom: 0;
+}
+
+
+.christmas-music-setting {
+  max-width: 420px;
+  border-bottom: 1px solid #E6E6E6;
+  padding: 20px 0;
+}
+.christmas-music-setting-label {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.christmas-music-setting-description {
+  margin: 0;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+}
+
+
+.christmas-music-file-setting-wrapper {
+  display: flex;
+  align-items: center;
+}
+.christmas-music-file-setting {
+  display: flex;
+  align-items: center;
+}
+.christmas-music-file-button {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  padding: 7px 20px;
+  border: 1px solid #555;
+  border-radius: 1px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+.christmas-music-file-button:hover {
+  background: rgba(0,0,0,.1);
+}
+.christmas-music-file-name {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #FD517A;
+}
+.christmas-music-file-remove {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.christmas-music-file-remove::before,
+.christmas-music-file-remove::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 15px;
+  width: 2px;
+  background-color: #555;
+}
+.christmas-music-file-remove::before {
+  transform: rotate(45deg);
+}
+.christmas-music-file-remove::after {
+  transform: rotate(-45deg);
+}
+
+
+.christmas-music-checkbox-setting {
+  display: flex;
+}
+.christmas-music-checkbox-setting input {
+  display: none;
+}
+.christmas-music-checkbox-setting div {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 3px solid #555;
+}
+.christmas-music-checkbox-setting span {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.christmas-music-checkbox-setting input:checked + div {
+  background: #FD517A url(../images/checked.svg) no-repeat;
+  background-size: 12px;
+  background-position: center;
+}
+
+
+.christmas-music-volume-setting {
+  display: flex;
+  align-items: center;
+}
+.christmas-music-volume-setting img {
+  margin-right: 10px;
+}
+.christmas-music-volume-value {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+}
+
+
+/* Input range styling */
+.christmas-music-range-setting {
+  position: relative;
+  width: 100%;
+  max-width: 150px;
+  height: 3px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 30px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.christmas-music-range-setting:focus {
+  outline: none;
+}
+.christmas-music-range-setting::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 30px;
+  border: 0;
+}
+.christmas-music-range-setting::-webkit-slider-thumb {
+  box-shadow: 0;
+  border: 0;
+  margin-top: -3px;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background: #FD517A;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.christmas-music-range-setting:focus::-webkit-slider-runnable-track {
+  background: transparent;
+}
+
+.christmas-music-range-setting::-moz-range-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 0;
+}
+.christmas-music-range-setting::-moz-range-thumb {
+  box-shadow: 0;
+  border: 0;
+  margin-top: -3px;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background: #FD517A;
+  cursor: pointer;
+  appearance: none;
+}
+.christmas-music-range-setting::-moz-range-progress {
+  background: transparent;
+  height: 3px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.christmas-music-range-setting::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 9px 0;
+  color: transparent;
+}
+.christmas-music-range-setting::-ms-fill-lower {
+  background: transparent;
+  border: 0;
+  border-radius: 30px;
+}
+.christmas-music-range-setting::-ms-fill-upper {
+  background: transparent;
+  border: 0;
+  border-radius: 30px;
+}
+.christmas-music-range-setting::-ms-thumb {
+  box-shadow: 0;
+  border: 0;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background: #FD517A;
+  cursor: pointer;
+}
+.christmas-music-range-setting:focus::-ms-fill-lower {
+  background: transparent;
+}
+.christmas-music-range-setting:focus::-ms-fill-upper {
+  background: transparent;
+}
+/* -- Input range styling -- */
+
+
+.christmas-music-position-setting {
+  width: 130px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px;
+}
+.christmas-music-position-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.christmas-music-position-row:last-child {
+  margin-bottom: 0;
+}
+.christmas-music-position-setting label {
+  margin: 0;
+}
+
+
+.christmas-music-radio-group {
+  display: flex;
+  align-items: center;
+}
+.christmas-music-radio-setting {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.christmas-music-radio-setting input {
+  display: none;
+}
+.christmas-music-radio-setting div {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #555;
+  background: transparent;
+}
+.christmas-music-radio-setting input:checked + div {
+  background: #FD517A;
+}
+.christmas-music-radio-setting span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  margin-left: 10px;
+}
+
+
+.christmas-music-color-setting {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.christmas-music-color-setting:last-child {
+  margin-bottom: 0;
+}
+.christmas-music-color-setting .christmas-music-setting-label {
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+.christmas-music-color-setting .wp-picker-container .wp-color-result {
+  margin: 0;
+  min-height: 24px;
+}
+
+
+.christmas-music-settings p.submit {
+  margin-top: 40px;
+}
+.christmas-music-settings [type="submit"] {
+  height: auto;
+  padding: 3px 13px;
+  border: 0;
+  border-radius: 11px;
+  background-color: #555 !important;
+  transition: all .2s ease-in-out;
+  text-shadow: none;
+}
+.christmas-music-settings [type="submit"]:hover {
+  background-color: #777 !important;
+}
+
+
+.christmas-music-settings-sidebar h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+.christmas-music-settings-sidebar p + h3 {
+  margin-top: 40px;
+}
+.christmas-music-settings-sidebar p {
+  font-size: 13px;
+  color: #333;
+  margin: 0 0 20px 0;
+}
+.christmas-music-settings-sidebar a {
+  color: #FD517A;
+  text-decoration: underline;
+}
+.christmas-music-settings-sidebar p.christmas-music-settings-sidebar-thank-you {
+  margin-top: 70px;
+  color: #22654D;
+  font-size: 13px;
+  font-weight: 600;
+}
